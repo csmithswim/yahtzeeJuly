@@ -1,8 +1,15 @@
 package com.csmithswim.company;
 import java.util.*;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Main {
+
     public static void main(String[] args) {
-        Cup
+        // write your code here
+        Yahtzee game = new Yahtzee();
+        game.play();
     }
 }

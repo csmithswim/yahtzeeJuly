@@ -2,7 +2,7 @@ package com.csmithswim.company;
 
 public class Die {
     public int numberOfSides;
-    public int value;
+    public int faceUpValue;
 
     public Die() {
         numberOfSides = 6;
@@ -13,7 +13,7 @@ public class Die {
     }
 
     public void roll() {
-        value = (int) ((Math.random() * numberOfSides) + 1);
+        faceUpValue = (int) ((Math.random() * numberOfSides) + 1);
     }
 
 }
